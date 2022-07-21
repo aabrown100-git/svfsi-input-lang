@@ -1,0 +1,26 @@
+{
+    "name": "svfsi-input-lang",
+    "displayName": "svFSI Input Lang",
+    "description": "Syntax highlighting for svFSI input files",
+    "version": "0.0.1",
+    "publisher": "svfsi",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "svfsi",
+            "aliases": ["svFSI Input", "svfsi"],
+            "extensions": [".inp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "svfsi",
+            "scopeName": "text.plain",
+            "path": "./syntaxes/svFSI.tmGrammar.json"
+        }]
+    }
+}

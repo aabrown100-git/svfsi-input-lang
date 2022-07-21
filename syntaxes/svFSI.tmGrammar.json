@@ -1,0 +1,1550 @@
+{
+  "scopeName": "text.plain",
+  "patterns": [{"include": "#expression"}],
+  "repository": {
+    "expression": {
+      "patterns": [
+        {
+          "match": "Add[ ]mesh(?=:)",
+          "name": "variable.function"
+        },
+        {
+          "match": "Add[ ]projection(?=:)",
+          "name": "variable.function"
+        },
+        {
+          "match": "Add[ ]equation(?=:)",
+          "name": "variable.function"
+        },
+        {
+          "match": "Add[ ]face(?=:)",
+          "name": "variable.function"
+        },
+        {
+          "match": "Add[ ]BC(?=:)",
+          "name": "variable.function"
+        },
+        {
+          "match": "Add[ ]BF(?=:)",
+          "name": "variable.function"
+        },
+        {
+          "match": "Mesh[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Face[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "End[ ]nodes[ ]face[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Domain[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Coupled(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Domain(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Output(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "LS[ ]type(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Save[ ]results[ ]in[ ]folder(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Verbose(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Warning(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Debug(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Colorful[ ]terminal[ ]output(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Use[ ]separator[ ]in[ ]the[ ]history[ ]file(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Continue[ ]previous[ ]simulation(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Simulation[ ]initialization[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Number[ ]of[ ]spatial[ ]dimensions(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Number[ ]of[ ]time[ ]steps(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Starting[ ]time[ ]step(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Time[ ]step[ ]size(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Number[ ]of[ ]initialization[ ]time[ ]steps(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Spectral[ ]radius[ ]of[ ]infinite[ ]time[ ]step(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Searched[ ]file[ ]name[ ]to[ ]trigger[ ]stop(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Check[ ]IEN[ ]order(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Save[ ]results[ ]to[ ]VTK[ ]format(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Name[ ]prefix[ ]of[ ]saved[ ]VTK[ ]files(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Increment[ ]in[ ]saving[ ]VTK[ ]files(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Start[ ]saving[ ]after[ ]time[ ]step(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Save[ ]averaged[ ]results(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Start[ ]averaging[ ]from[ ]zero(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Overwrite[ ]restart[ ]file(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Restart[ ]file[ ]name(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Increment[ ]in[ ]saving[ ]restart[ ]files(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Convert[ ]BIN[ ]to[ ]VTK[ ]format(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Simulation[ ]requires[ ]remeshing(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Min[ ]iterations(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Max[ ]iterations(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Couple[ ]to[ ]genBC(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Couple[ ]to[ ]cplBC(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "0D[ ]code[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Number[ ]of[ ]unknowns(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Unknowns[ ]initialization[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "File[ ]name[ ]for[ ]0D-3D[ ]communication(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "File[ ]name[ ]for[ ]saving[ ]unknowns(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Number[ ]of[ ]user-defined[ ]outputs(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Use[ ]Taylor-Hood[ ]type[ ]basis(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Prestress(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Initialize(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Wall[ ]properties[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Coupling[ ]with[ ]mechanics(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Initialize[ ]RCR[ ]from[ ]flow(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Equation(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fluid[ ]density(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Density(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Solid[ ]density(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Elasticity[ ]modulus(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Poisson[ ]ratio(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Viscosity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Conductivity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Force_X(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Force_Y(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Force_Z(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Backflow[ ]stabilization[ ]coefficient(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Source[ ]term(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Mass[ ]damping(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Shell[ ]thickness(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Momentum[ ]stabilization[ ]coefficient(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Continuity[ ]stabilization[ ]coefficient(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Preconditioner(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Use[ ]Trilinos[ ]for[ ]assembly(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Absolute[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Krylov[ ]space[ ]dimension(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "NS-GM[ ]max[ ]iterations(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "NS-CG[ ]max[ ]iterations(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "NS-GM[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "NS-CG[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Absolute[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Type(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Traction[ ]values[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Traction[ ]multiplier(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Effective[ ]direction(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Time[ ]dependence(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Value(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Temporal[ ]values[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Ramp[ ]function(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fourier[ ]coefficients[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "RCR[ ]values(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Distal[ ]pressure(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Initial[ ]pressure(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Spatial[ ]values[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "BCT[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Temporal[ ]and[ ]spatial[ ]values[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Stiffness(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Damping(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Apply[ ]along[ ]normal[ ]direction(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Impose[ ]flux(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Zero[ ]out[ ]perimeter(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Impose[ ]on[ ]state[ ]variable[ ]integral(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Profile(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Spatial[ ]profile[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Weakly[ ]applied(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Penalty[ ]parameter(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Penalty[ ]parameter[ ]\\(tangential\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Penalty[ ]parameter[ ]\\(normal\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Shell[ ]BC[ ]type(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Follower[ ]pressure[ ]load(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Undeforming[ ]Neu[ ]face(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Initial[ ]displacements[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Prestress[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Time[ ]dependence(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Max[ ]edge[ ]size(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "val(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Min[ ]dihedral[ ]angle(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Max[ ]radius[ ]ratio(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Frequency[ ]for[ ]copying[ ]data(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Remesh[ ]frequency(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Electrophysiology[ ]model(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Conductivity[ ]\\(iso\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Conductivity[ ]\\(ani\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Myocardial[ ]zone(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Amplitude(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Start[ ]time(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Duration(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Cycle[ ]length(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Time[ ]step[ ]for[ ]integration(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "ODE[ ]solver(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Feedback[ ]parameter[ ]for[ ]stretch-activated-currents(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Maximum[ ]iterations(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Absolute[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Relative[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "c1(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "c2(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "a4(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "b4(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "a6(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "b6(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "kappa(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "C(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "bf(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "bt(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "bfs(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "a(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "b(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "a4f(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "b4f(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "a4s(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "b4s(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "afs(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "bfs(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "k(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fiber[ ]reinforcement[ ]stress(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Dilational[ ]penalty[ ]model(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Limiting[ ]high[ ]shear-rate[ ]viscosity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Limiting[ ]low[ ]shear-rate[ ]viscosity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Shear-rate[ ]tensor[ ]multiplier[ ]\\(lamda\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Shear-rate[ ]tensor[ ]exponent[ ]\\(a\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Power-law[ ]index[ ]\\(n\\)(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Asymptotic[ ]viscosity[ ]parameter(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Yield[ ]stress[ ]parameter(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Low[ ]shear-rate[ ]threshold(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Velocity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Pressure(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Temperature(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Action_potential(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Acceleration(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Displacement(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Area(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Volume(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "WSS(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Traction(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Vorticity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Vortex(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Strain_invariants(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Energy_flux(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Heat_flux(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Absolute_velocity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fiber_direction(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fiber_alignment(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Stress(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Cauchy_stress(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "VonMises_stress(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Jacobian(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Def_grad(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Strain(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Divergence(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Viscosity(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Set[ ]mesh[ ]as[ ]fibers(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Project[ ]from[ ]face(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Projection[ ]tolerance(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Stimulus(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fiber[ ]direction(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Mesh[ ]scale[ ]factor(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Constitutive[ ]model(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Fiber[ ]direction[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Initial[ ]velocities[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Initial[ ]pressures[ ]file[ ]path(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "Set[ ]mesh[ ]as[ ]shell(?=:)",
+          "name": "keyword"
+        },
+        {
+          "match": "\\#.*$",
+          "name": "comment"
+        },
+        {
+          "match": "(?<=:[ ]).*vtu",
+          "name": "string"
+        },
+        {
+          "match": "(?<=:[ ]).*txt",
+          "name": "string"
+        },
+        {
+          "match": "(?<=:[ ]).*dat",
+          "name": "string"
+        },
+        {
+          "match": "(?<=:[ ]).*vtp",
+          "name": "string"
+        },
+        {
+          "match": "(?<=:[ ]).*exe",
+          "name": "string"
+        },
+        {
+          "match": "(?<=:[ ])fluid([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])heatF([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])dyeTransport([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])scalarTransport([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])AD([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])heatS([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])laplace([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])poisson([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])lElas([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])struct([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])ustruct([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])shell([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])CMM([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])inflate([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])inf([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])prestress([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])prest([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])FSI([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])mesh([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])CEP([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])active[[:space:]]stress([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])active[[:space:]]strain([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])active_stress([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])active_strain([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])stokes([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])ns([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])NS([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])bpn([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])bipn([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])gmres([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])GMRES([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])ctmp([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])cg([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])bicg([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])bicgs([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])BICG([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])BICGS([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])fsils([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])FSILS([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])svfsi([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])rcs([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])RCS([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])row-column-scaling([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-diagonal([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-blockjacobi([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])blockjacobi([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-ilu([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Trilinos-ILUT([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-ilut([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-ic([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-ict([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-ml([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trilinos-ml([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Dirichlet([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Dir([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Neumann([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Neu([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Traction([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Trac([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Robin([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Rbn([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Coupled[[:space:]]Momentum([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])CMM([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Steady([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Unsteady([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Coupled([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Resistance([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])RCR([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Windkessel([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Spatial([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])General([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Flat([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Parbolic([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])User_defined([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Fixed([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])fixed([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Clamped([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])clamped([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Hinged([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])hinged([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Free([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])free([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])volumetric([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])vol([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])internal([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])int([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])traction([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])trac([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])neumann([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])neu([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])pressure([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])steady([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])unsteady([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])spatial([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])general([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Tetgen([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Meshsim([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])ap([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])aliev-panfilov([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])bo([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])bueno-orovio([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])fn([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])fitzhugh-nagumo([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])ttp([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])TTP([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])tentusscher-panfilov([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])epi([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])epicardium([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])endo([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])endocardium([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])pfib([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])purkinje([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])myo([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])mid-myo([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])myocardium([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])fe([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])euler([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])explicit([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])rk([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])RK([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])rk4([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])runge([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])cn([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])cn2([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])implicit([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])lin([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])linear([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])stVK([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])stVenantKirchhoff([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])m-stVK([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])modified-stVK([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])modified-stVenantKirchhoff([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])nHK([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])nHK91([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])neoHookean([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])neoHookeanSimo91([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])MR([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Mooney-Rivlin([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HGO([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HGO-decoupled([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HGO-d([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HGO-ma([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HGO-modified([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Guccione([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Gucci([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HO([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Holzapfel([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HO-decoupled([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HO-d([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HO-ma([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])HO-modified([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])quad([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Quad([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])quadratic([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Quadratic([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Parabolic([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Para([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])ST91([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Simo-Taylor91([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])M94([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Miehe94([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])const([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])newtonian([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])carreau-yasuda([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Carreau-Yasuda([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])cy([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])cassons([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Cassons([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])cass([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])Cass([ ]|\\n)",
+          "name": "variable.parameter"
+        },
+        {
+          "match": "(?<=:[ ])t([ ]|\\n)",
+          "name": "constant.numeric"
+        },
+        {
+          "match": "(?<=:[ ])f([ ]|\\n)",
+          "name": "constant.numeric"
+        },
+        {
+          "match": "(?<=:[\\s+])(?<=:[ ])(\\s*)[-+]?([0-9]*[.])?[0-9]+([eDE][-+]?\\d+)?([ ]|\\n|,|\\))",
+          "name": "constant.numeric"
+        },
+        {
+          "match": "(?<=:[ ])\\(.*(\\))",
+          "name": "constant.numeric"
+        },
+        {
+          "match": "(?<=:[ ]).*?([ ]|\\n)",
+          "name": "entity.other.attribute-name"
+        }
+      ]
+    }
+  }
+}
