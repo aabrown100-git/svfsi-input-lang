@@ -3,7 +3,7 @@
     "displayName": "svFSI Input Lang",
     "description": "Syntax highlighting for svFSI input files",
     "version": "0.0.1",
-    "publisher": "Aaron Brown",
+    "publisher": "svFSI",
     "engines": {
         "vscode": "^1.69.0"
     },
